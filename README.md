@@ -22,7 +22,7 @@
 | **Webcam**      | HP Wide Vision HD Camera                           | ✅ |
 | **Battery**     | 333-1C-3B-A HT03041XL                              | ✅ |
 | **Audio**       | Realtek ALC295 `Don't update the AppleALC.kext!`   | ✅ |
-| **WiFi/BT**     | Intel AX201 160MHz CNVio2 (NOT preinstalled)       | ❌ |
+| **WiFi/BT**     | Intel AX201 160MHz CNVio2 (NOT preinstalled)       | ✅ |
 | **Fingerprint** | Synaptics WBDI Fingerprint Reader                  | ❌ |
 | **dGPU**        | ~~NVIDIA GeForce MX130 (GM108)~~ (my variant doesn't have dGPU) | ❌ |
 
