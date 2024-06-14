@@ -6,7 +6,9 @@
 > Thanks a lot to [Avtera](https://github.com/Avtera) for the EFI work :)
 
 > [!IMPORTANT]
-> This EFI is tested on macOS Ventura+
+> This EFI is tested on macOS Sonoma (14.4)
+>
+> Be aware that the MLB/Serial/AppleROM field in `config.plist` is blank, you need to fill it yourself (you can generate one with `macserial.py`)
 
 ## Specifications
 | Type        | Hardware Model                                     | Status |
