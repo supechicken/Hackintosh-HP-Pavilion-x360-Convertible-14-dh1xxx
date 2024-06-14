@@ -1,23 +1,30 @@
 # [SUCCESS] HP Pavilion x360 Convertible 14-dh1xxx
-Tested before release.
+
+> [!NOTE]
+> This repository is forked from [Avtera/Hackintosh-HP-Pavilion-x360-Convertible-14-dh1xxx](https://github.com/Avtera/Hackintosh-HP-Pavilion-x360-Convertible-14-dh1xxx), with brightness key patch and updated OC/kext for Sonoma
+>
+> Thanks a lot to [Avtera](https://github.com/Avtera) for the EFI work :)
+
+> [!IMPORTANT]
+> This EFI is tested on macOS Ventura+
 
 ## Specifications
 | Type        | Hardware Model                                     | Status |
 | :---        | :---                                               | :---: |
 | **CPU**         | Intel Core i5-10210U, QuadCore 3.5 GHz, Comet Lake | ✅ |
-| **Memory**      | SK hynix HMA81GS6CJR8N-XN	8 GB DDR4-3200           | ✅ |
-| **iGPU**        | Intel® UHD Graphics 630 (1.5 GB) `Intel told us the iGPU is "Intel® UHD Graphics for 10th Gen" but it's actually an "Intel® UHD Graphics 630"`| ✅ |
-| **Disk**        | INTEL SSDPEKNW512G8H  (512 GB, PCI-E 3.0 x4)       | ✅ |
-| **Keyboard**    | Standard PS/2 Keyboard                             | ✅ |
+| **Memory**      | Kingston SK Hynix/Nanya 2x8 GB DDR4-2666           | ✅ |
+| **iGPU**        | Intel® UHD Graphics 630 (CML-GT2) (1.5 GB)         | ✅ |
+| **eGPU**        | AMD Radeon RX570 4GB (connected via M.2 NVMe slot) | ✅ |
+| **Disk**        | Samsung 870 EVO (500 GB, with Intel RST on)        | ✅ |
+| **Keyboard**    | Standard PS/2 Keyboard (brightness key works!)     | ✅ |
 | **Touchpad**    | Synaptics `(Hardware Id: SYNA328B)`                | ✅ |
 | **Touchscreen** | ELAN `(Hardware Id: ELAN2514)`                     | ✅ |
 | **Webcam**      | HP Wide Vision HD Camera                           | ✅ |
 | **Battery**     | 333-1C-3B-A HT03041XL                              | ✅ |
 | **Audio**       | Realtek ALC295 `Don't update the AppleALC.kext!`   | ✅ |
-| **WiFi**        | Realtek RTL8821CE 802.11ac PCIe Adapter            | ❌ |
+| **WiFi/BT**     | Intel AX201 160MHz CNVio2 (NOT preinstalled)       | ❌ |
 | **Fingerprint** | Synaptics WBDI Fingerprint Reader                  | ❌ |
-| **Bluetooth**   | Realtek Bluetooth 4.2 Adapter                      | ❌ |
-| **dGPU**        | NVIDIA GeForce MX130 (GM108)                       | ❌ |
+| **dGPU**        | ~~NVIDIA GeForce MX130 (GM108)~~ (my variant doesn't have dGPU) | ❌ |
 
 ## BIOS Settings
 | Option              | Status                     |
@@ -53,4 +60,3 @@ Speakers does not output any sound? just shut down the macOS and power it on aga
 - Last, thanks to anything or anyone that help me build this EFI file, too many to write them down here lol xD
 
 # Enjoy Hackintoshing!
-7z password is avtera
